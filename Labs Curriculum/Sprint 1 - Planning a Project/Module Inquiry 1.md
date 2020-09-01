@@ -16,14 +16,14 @@ Note: This would be more DS related so it applies to the functionality of automa
 - The user (child) and customer (parent) need safety from unwanted, inappropriate posts.
 - The user needs a complexity score for further rankings.
 - The user should not write stories with foul language on them.
-STRETCH:
-- The user should not draw anything inappropriate in their submitted stories (I found a way to build a ML model that can identify the doodles/drawings, then train the model to flag what it finds inappropriate and send it to the human moderator for review).
+
+- STRETCH: The user should not draw anything inappropriate in their submitted stories (I found a way to build a ML model that can identify the doodles/drawings, then train the model to flag what it finds inappropriate and send it to the human moderator for review).
 
 3. Select your favorite user story. What are the tasks that need to be accomplished in order to ship that particular user story?
     - What did you do well in this task breakdown process? What were some challenges?
     
      - > My favorite one is the complexity score user story. I would love to dive in and see how it works under the hood. One part that I love about DS is researching
-    how these models work and how they came about these preictions.
+    how these models work and how they came about these predictions.
     - > First, build an API where we can add these functions and also send the endpoints to backend. Then, load the data and analyze it for further implementations
     to create the ML and NLP model. As stated above, the NLP model will take care of the complexity score; and the ML model will take care of transcribing the
     user's stories into text, and also it would be used for the automated moderation.
